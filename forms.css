@@ -1,0 +1,163 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("aibacg.jfif");
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+section {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+section h1 {
+    font-size: 60px;
+    color: rgb(86, 247, 247);
+    text-shadow: 2px 2px 90px rgb(0, 208, 255);
+    z-index: 1;
+}
+
+section p {
+    padding:0 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    font-size: larger;
+    letter-spacing: 2px;
+    z-index: 1;
+}
+
+
+.form_div {
+    text-align: center;
+    margin: 25px 12px;
+    background-color: rgb(17, 17, 30);
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    opacity: 1;
+    
+}
+
+.form_div h3 {
+    padding: 0 10px;
+}
+
+form {
+    box-sizing: border-box;
+    margin: 30px;
+    margin-top: 5%;
+    padding: 0 12px;
+    background-color: rgb(52, 113, 179);
+    background-blend-mode:darken;
+    border-radius: 5px;
+}
+
+.input_field {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: inline;
+    padding: 10px 10px;
+    outline: none;
+    margin-top:20px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+input[type = "submit"] {
+    margin: 30px 0;
+    border-radius: 6px;
+    font-weight: bold;
+    background-color: rgb(236, 233, 238);
+    color: rgb(23, 23, 75);
+    outline: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type = "submit"]:hover {
+    transition: 0.6s;
+    background-color:black;
+    color: white;
+}
+
+@media only screen and (min-width: 442px) {
+    .form_div {
+        margin: 0 10px;
+    }
+}
+
+/*Breakpoints between 644px and 872px*/
+@media only screen and (min-width: 484px) {
+    .form_div {
+        margin: 20px;
+    }
+}
+
+@media only screen and (min-width: 610px) {
+    .form_div {
+        margin: 20px 40px;
+    }
+}
+
+/*Breakpoints between 644px and 872px*/
+@media only screen and (min-width: 664px) and (max-width: 872px) {
+    .form_div {
+        margin: 20px 120px;
+    }
+}
+/*Style devices with min-width = 873px*/
+@media only screen and (min-width: 873px) {
+    main {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section {
+        margin-top: 20%;
+        padding: 0 10%;
+    }
+
+
+    .form_div {
+        margin-top: 10%;
+        width: 80%;
+        box-sizing: border-box;
+        
+    }
+}
+
+/*for desktop*/
+@media only screen and (min-width: 925px) {
+    .form{
+        text-align: center;
+        display: block;
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    section {
+        width: 30%;
+        margin-top: 10%;
+        background-color: black;
+        opacity: 0.9;
+    }
+    .form_div {
+        width: 30%;
+        background-color: rgba(17, 17, 30, 0.7);
+        color: rgba(53, 247, 247);
+        text-shadow: 3px 2px 10px rgb(53,247, 247);
+    }
+}
